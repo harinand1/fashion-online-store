@@ -1,0 +1,140 @@
+ {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Body Styling */
+body {
+    background-color:pink;
+    color:gray;
+    line-height: 1.6;
+}
+
+/* Header Styling */
+header {
+    background-color: black;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+header h1 {
+    margin-bottom: 10px;
+    font-size: 3.0rem;
+}
+
+/* Navigation */
+nav {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 10px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+nav a:hover {
+    color: yellow;
+}
+
+/* Main Section Styling */
+main.Outfit-List {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 25px;
+    padding: 30px;
+    max-width: 1200px;
+    margin: auto;
+}
+
+/* Individual Outfit Section */
+.Outfit {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    text-align: center;
+    transition: transform 0.2s;
+}
+
+.Outfit:hover {
+    transform: scale(1.03);
+}
+
+.Outfit img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+
+.Outfit h2 {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+    color: #222;
+}
+
+.Outfit p {
+    font-size: 1rem;
+    margin-bottom: 15px;
+    color: #555;
+}
+
+/* Button Styling */
+.Outfit button {
+    padding: 10px 20px;
+    background-color: yellow;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background-color 0.3s;
+}
+
+.Outfit button:hover {
+    background-color: #e05500;
+}
+footer {
+    background-color: #f8f8f8;
+    padding: 20px;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    border-top: 1px solid #ddd;
+}
+
+footer p {
+    margin: 10px 0;
+    color: #333;
+}
+
+footer a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: #007BFF;
+    font-weight: 500;
+}
+
+footer a:hover {
+    text-decoration: underline;
+    color: #0056b3;
+}
+button {
+  background-color: #007bff;  
+  color: white;              
+  font-size: 18px;           
+  padding: 12px 24px;        
+  border: none;              
+  border-radius: 8px;        
+  cursor: pointer;         
+}
+.right-btn {
+  float: left;
+}

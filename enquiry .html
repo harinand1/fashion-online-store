@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Enquiry Form</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      img src: ;
+      
+    }
+    .enquiry-form {
+      max-width: 400px;
+      margin: 40px auto;
+      padding: 20px;
+      border: 2px solid #333;
+      border-radius: 10px;
+    }
+    .enquiry-form input,
+    .enquiry-form textarea {
+      width: 100%;
+      padding: 10px;
+      margin-top: 10px;
+      margin-bottom: 15px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+    }
+    .enquiry-form button {
+      background-color: #1e90ff;
+      color: white;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 25px;
+      cursor: pointer;
+      font-size: 16px;
+    }
+    .enquiry-form button:hover {
+      background-color: #0b78d1;
+    }
+  </style>
+</head>
+<body>
+    <img src="images/11.webp" alt="picture">
+    
+
+<div class="enquiry-form">
+  <h2>Enquiry Details</h2>
+  <form action="submit-form.php" method="post">
+    <input type="text" name="name" placeholder="Your Name" required>
+    <input type="email" name="email" placeholder="Your Email" required>
+    <textarea name="message" rows="4" placeholder="Your Enquiry" required></textarea>
+    <button type="submit">Sign to Enquire</button>
+  </form>
+</div>
+
+</body>
+</html>
